@@ -1,5 +1,9 @@
-print how old are you
->>>print 1+1
-if(age<18)
-print "You should be at school, log out and do your homework"
-else: print "Relax and enjoy the content"
+# Gets user input
+name = input("What is your name?")
+num = input("What is your favorite number? ")
+print("")
+
+# Uses user input to print out information
+print("Hello " + name + "!")
+print(num + "?! That's my favorite number too!")
+print("")
